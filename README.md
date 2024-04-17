@@ -38,7 +38,7 @@ const password = generatePassword(passwordlength, includeLowercase, includeUpper
 console.log(`Generated password:${password}`);
 ```
 ### Formula
-```     const randomIndex=Math.floor(Math.random()*allowedChars.length);              password+=allowedChars[randomIndex];```
+```const randomIndex=Math.floor(Math.random()*allowedChars.length);              password+=allowedChars[randomIndex];```
 
 ##### Console
 <img src="console.png">
